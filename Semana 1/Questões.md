@@ -39,3 +39,14 @@ Receba um número de horas e converta para segundos.
 
 ## Questão 10:
 Faça um programa que receba um nome, idade e curso e exiba no formato: "Olá, **[nome]**! Você tem **[idade]** anos e faz **[curso]**!"
+
+⚠️ ATENÇÃO:
+
+O objetivo desta primeira semana é focar nos fundamentos lógicos de **entrada, processamento e saída** de dados. 
+
+Portanto, a resolução dos exercícios **deve conter apenas código sequencial**. 
+
+**Não é permitido o uso de:**
+* Estruturas de decisão (`if`, `else`, `switch`, `case`)
+* Estruturas de repetição (`for`, `while`, `do-while`)
+* Vetores/Arrays ou Coleções
