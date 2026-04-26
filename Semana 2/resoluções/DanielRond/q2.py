@@ -11,8 +11,8 @@ Saídas:
 """
 numero1 = int(input())
 numero2 = int(input())
-if not(numero2==0):
+try:
     print(numero1//numero2)
     print(numero1%numero2)
-else:
+except ZeroDivisionError:
     print("erro")

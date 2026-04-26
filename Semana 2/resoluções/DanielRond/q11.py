@@ -8,3 +8,11 @@ Entrada:
 Saída:
 - Duração do jogo (horas e minutos)
 """
+horaInicio,minutoInicio = map(int,input().split())
+horaFinal,minutoFinal = map(int,input().split())
+totalInicio = horaInicio*60 + minutoInicio
+totalFinal = horaFinal*60 + minutoFinal
+duracao = (totalFinal - totalInicio)%1440
+horaDuracao = duracao//60
+minutoDuracao = duracao%60
+print(horaDuracao,minutoDuracao)

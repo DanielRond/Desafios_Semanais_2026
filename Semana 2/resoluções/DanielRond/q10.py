@@ -12,6 +12,9 @@ Saída
 
 Restrições
 - 5 ≤ N ≤ 100"""
-idade_1 = int(input())
-idade_2 = int(input())
-idade_3 = int(input())
+idade1 = int(input())
+idade2 = int(input())
+idade3 = int(input())
+somaidades = idade1+idade2+idade3 
+idadecamila = somaidades- max(idade1,idade2,idade3 ) - min(idade1,idade2,idade3 )
+print(idadecamila)
